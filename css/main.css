@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+    font-family: font01;
+    overflow-y: scroll;
+}
+.container
+{
+    width: 100%;
+    height: auto; 
+    scroll-behavior: smooth;
+}
+.menu
+{
+    width: 100%;
+    height: 70px;
+    font-family: font01;
+}
+
+/*menu*/
+
+
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  top: -70px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+    opacity: 90%;
+    font-family: font01;
+    padding-right: 50px;
+}
+
+#navbar a {
+  float:right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding:20px;    
+  text-decoration: none;
+  font-size: 17px;
+    font-family: font01;
+}
+
+#navbar a:hover {
+  color:#64FF00;
+}
+/**/
+.home
+{
+    width: 100%;
+    height: 1000px;
+    background-color:#020204;
+    background: url("../images/Screenshot 2021-08-30 165610.png");
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 25pt;
+    box-sizing: border-box;
+}
+.menu
+{
+    width: 100%;
+    height: 70px;
+
+}
+.icon
+{
+    width: 10%;
+    height: 70px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*css icon*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay-content ul  {
+  list-style: none;
+    
+}
+.overlay-content ul li {
+  float: none;
+    
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/**/
+.about
+{
+    width: 100%;
+    height: 1400px;
+    color: black;
+    font-size: 25pt;
+    box-sizing: border-box;
+}
+.gioithieu 
+{
+    width: 100%;
+    height: 320px;
+    color: black;
+    text-align: center;
+    font-size: 25pt;
+    box-sizing: border-box; 
+    font-family: font01;
+}
+.gt 
+{
+    width: 100%;
+    height: 280px;
+
+    color: black;
+    font-size: 25pt;
+}
+.gt_a
+{
+    width:35%;
+    height: 280px;
+
+    color: black;
+    font-size: 25pt;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 30px; 
+}
+.gt_a1
+{
+    width: 65%;
+    height: 280px;
+
+    color: black;
+    font-size: 21pt;
+    box-sizing: border-box;
+    float: right;
+    text-align: left;
+    padding-top: 50px;
+}
+.profile
+{
+    width: 100%;
+    height: 800px;
+    color: black;
+    font-size: 21pt;
+    box-sizing: border-box;
+}
+.profile_a
+{
+    width:50%;
+    height: 800px;
+
+    color: black;
+    font-size: 20pt;
+    box-sizing: border-box;
+    float: left; 
+    text-align: right;
+    padding-right: 20px;
+}
+.pro5
+{
+    width:60%;
+    height: 800px;
+
+    color: black;
+    font-size: 20pt;
+    box-sizing: border-box;
+    float: right; 
+    text-align: left;
+    padding-right: 20px;
+}
+.profile_a1
+{
+    width:50%;
+    height: 800px;
+
+    color: black;
+    font-size: 20pt;
+    box-sizing: border-box;
+    float: left; 
+    padding-left: 20px;
+}
+* {box-sizing: border-box}
+/*so liệu*/
+.solieu {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+}
+
+.GD {width: 80%; background-color: black;}
+.WD {width: 60%; background-color: black;}
+.DA {width: 60%; background-color: black;}
+.HC {width: 75%; background-color: black;}
+.W {width: 60%; background-color: black;}
+.P {width: 85%; background-color: black;}
+/**/
+.portfolio
+{
+    width: 100%;
+    height: 1656px;
+    color: black;
+    font-size: 21pt;
+    box-sizing: border-box;
+}
+.port_a
+{
+    width: 100%;
+    height: 320px;
+
+    color: black;
+    text-align: center;
+    font-size: 25pt;
+    box-sizing: border-box; 
+}
+.port
+{
+    width: 1002px;
+    height: 1336px;
+    
+}
+.port1
+{
+    width: 1002px;
+    height: 334px;    
+}
+.port2
+{
+    width: 334px;
+    height: 334px;
+    float: left;
+    background-color:#646464;
+    position: relative;
+    overflow: hidden;
+}
+.port3
+{
+    width: 1002px;
+    height: 668px;
+    
+}
+.port4
+{
+    width: 668px;
+    height: 668px;
+    float: left;
+    background-color:#646464;
+    position: relative;
+    overflow: hidden;
+}
+.port2 img
+{
+    transition: all .2s ease-out;
+    opacity: 1;
+    transform: scale(1);
+}
+.port2:hover img
+{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.port4 img
+{
+    transition: all .2s ease-out;
+    opacity: 1;
+    transform: scale(1);
+}
+.port4:hover img
+{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+.lable
+{
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    right:130px;
+    opacity: 0;
+}
+.port2 .lable
+{
+    transition: all .4s linear;
+    opacity: 0;
+    transform: scale(0.5);
+}
+.port2:hover .lable
+{
+    opacity: 1;
+    transform: scale(1);
+}
+.port4 .lable1
+{
+    transition: all .4s linear;
+    opacity: 0;
+    transform: scale(0.5);
+}
+.port4:hover .lable1
+{
+    opacity: 1;
+    transform: scale(1);
+}
+.lable1
+{
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    right:260px;
+    opacity: 0;
+}
+@font-face
+{
+    font-family: font01;
+    src:url("../font/Lato-Light.ttf");
+}
+
+.pricing
+{
+    width: 100%;
+    height: 1000px;
+    background:url("../images/Untitled-1-01-01-01-01.jpg");
+}
+.pricing1
+{
+    width: 100%;
+    height: 230px;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+}
+.pricing3
+{
+    width: 100%;
+    height: 230px;
+    color: black;
+    text-align: center;
+}
+.pricing2
+{
+    width: 100%;
+    height: 560px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.pricing4
+{
+    width: 20%;
+    height: 500px;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18pt;
+    background-color:white;
+    
+}
+/*btn*/
+.btn {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+    border-radius: 5px;
+}
+
+.success {
+  border-color:#0F0F0F;
+  color: #0F0F0F;
+}
+
+.success:hover {
+  background-color:#388F00;
+  color: white;
+}
+.success1 {
+  background-color: #388F00;
+  color: white;
+}
+
+.success1:hover {
+  background-color:#056616;
+  color: white;
+}
+.btn1 {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+    border-radius: 5px;
+}
+/**/
+
+
+
+.form
+{
+   width: 100%;
+   height: 930px;     
+}
+.form1
+{
+    width: 100%;
+    height: 230px;
+    color: black;
+    text-align: center;
+    font-size: 25pt;
+}
+.form2
+{
+    width: 100%;
+    height: 500px;
+    color: black;
+    text-align: center;
+}
+.form3
+{
+    width: 100%;
+    height: 200px;
+    color: black;
+    text-align: center;
+}
+.form4
+{
+    width: 40%;
+    height: 500px;
+    color: black;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.form5
+{
+    width: 60%;
+    height: 500px;
+    color: black;
+    text-align: left;
+    font-size: 18pt;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.form6
+{
+    width: 50%;
+    height: 400px;
+    color: black;
+    text-align: center;
+    float: right;
+    font-size: 15pt;
+}
+.form5 input
+{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black; 
+}
+.success2 {
+  background-color:#414141;
+  color: white;
+}
+
+.success2:hover {
+  background-color:#388F00;
+  color: white;
+}
